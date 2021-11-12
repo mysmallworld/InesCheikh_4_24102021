@@ -685,9 +685,10 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
+h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
 }
 
 .cta-hero {
@@ -705,6 +706,11 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.footer_link {
+    position: absolute;
+    visibility: hidden;
 }
 
 h2 {
