@@ -711,6 +711,7 @@ h1 {
 .footer_link {
     position: absolute;
     visibility: hidden;
+    color: white;
 }
 
 h2 {
