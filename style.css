@@ -302,13 +302,20 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    width: auto;
+    height: auto;
+    max-height: 180px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+}
+
+.col-sm-12 img {
+    width: auto;
+    height: auto;
 }
 
 .nav-center .navbar-brand img {
@@ -834,8 +841,6 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-    width: auto;
-    height: auto;
 }
 
 .bg-banniere {
@@ -846,8 +851,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpeg");
-    width: auto;
-    height: auto;
 }
 
 @media (max-width: 1024px) {
