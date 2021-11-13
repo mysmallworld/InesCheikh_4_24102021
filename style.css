@@ -834,6 +834,8 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    width: auto;
+    height: auto;
 }
 
 .bg-banniere {
@@ -844,6 +846,8 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpeg");
+    width: auto;
+    height: auto;
 }
 
 @media (max-width: 1024px) {
