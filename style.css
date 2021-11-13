@@ -362,6 +362,10 @@ a:hover {
     z-index: 2;
 }
 
+.adress {
+    align-items: center;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -372,7 +376,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: black;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -574,6 +578,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .lightbox-caption {
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -750,7 +755,9 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
+    width: 280px;
+    height: 280px;
 }
 
 .portfolio-row {
@@ -820,7 +827,9 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/lines-h2-bg.png");
+    width: 100%;
+    height: auto;
 }
 
 .bg-lines-h2-bg {
@@ -829,6 +838,8 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    width: 100%;
+    height: auto;
 }
 
 .bg-presentation {
