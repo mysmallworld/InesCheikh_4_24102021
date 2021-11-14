@@ -369,8 +369,9 @@ a:hover {
     z-index: 2;
 }
 
-.adress {
-    align-items: center;
+#adress {
+    line-height: 50px;
+    margin: 30px;
 }
 
 @media (min-width: 768px) {
